@@ -13,10 +13,10 @@ def createVanityAddress(customString):
         keys = createAccount()
         print(i, keys["pub"])
         i += 1
-        if(keys["pub"][2:].startswith(customString)):
+        if((customString.lower()) in keys["pub"][2:].lower()):
             return keys
 
-keys = createVanityAddress("AAAA")
+keys = createVanityAddress("69420")
 print("Address Found!")
 print("You're address is:", keys["pub"])
 print("You're private key is:", keys["priv"].hex())

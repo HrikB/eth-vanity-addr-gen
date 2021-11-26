@@ -4,8 +4,8 @@ from web3 import Web3
 
 #FILL THESE OUT
 #---------------------------------------------------------------------------------------------------------------------------------#
-deploying_addr = '0AB387A71cB8A18952C60fA2d0998082a568a86A'#The address of the CREATE2 smart contract
-bytecode_hash = '3dd18c918f41583af2495ac76600d039b410609ee62b0d717fc4f6745e5ed38a' #keccak256 hex hash of the bytecode of the contract you want to deploy; Get byte code from remix and use online keccak256 hasher like https://emn178.github.io/online-tools/keccak_256.html. Make to set input type to hex
+deploying_addr = '21C2713e850E7A6477C52F4621360a3956AafFc3'#The address of the CREATE2 smart contract
+bytecode_hash = 'fe614dc399b15172dd21827b03b40d938c21e1ee92a68e9e9460d35f2b2f21ce' #keccak256 hex hash of the bytecode of the contract you want to deploy; Get byte code from remix and use online keccak256 hasher like https://emn178.github.io/online-tools/keccak_256.html. Make to set input type to hex
 prefix = "BBBB" #This is case insensitive
 #---------------------------------------------------------------------------------------------------------------------------------#
 
